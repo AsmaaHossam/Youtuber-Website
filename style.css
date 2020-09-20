@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    background-image: linear-gradient(#c847f1,#380231);
+}
+
+.top-bar{
+    padding: 20px;
+}
+
+.top-bar h1{
+    color: white;
+    margin-left: 20px;
+    font-family: "Ropoto";
+    margin-right: 320px;
+    display: inline-block;
+}
+
+.menu-bar{
+    display: inline-block;
+   
+    
+}
+
+.menu-bar a{
+     width: 120px;
+     padding-bottom: 10px;
+     color: white !important;
+     text-decoration: none !important;
+     margin-right: 35px;
+     position: relative;
+     /* margin-bottom: 20px; */
+
+}
+
+/* stroke */
+.menu-bar a:after,
+.menu-bar a:after{
+    transition: all .5s;
+}
+.menu-bar a:after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: white;
+  height: 1px;
+}
+.menu-bar a:hover:after {
+  width: 100%;
+}
+
+.top-btn{
+    float: right;
+    display: inline-block;
+    margin-top: 20px;
+}
+.top-btn a{
+    margin: 2px 8px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    background: white;
+    color: #333;
+    text-decoration: none !important;
+    border: 2px  solid white;
+}
+
+.login-btn{
+    background: transparent !important;
+    color: white !important;
+}
+
+.top-btn a:hover{
+    background: white !important;
+    color: #333 !important;
+}
+
+.container h1{
+     color: white;
+     font-size: 70px;
+     font-weight: bold;
+     margin-top: 20%;
+     letter-spacing: 3px;
+}
+
+.hero p{
+    color: white;
+}
+
+.hero .container{
+    margin-top: 2%;
+}
+
+.start-btn{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    width: 140px;
+    height: 40px;
+    margin-top:30px ;
+    border-radius: 50px;
+}
+.start-btn:hover{
+    background: white !important;
+    color: #333 !important;
+}
+
+.hero-img img{
+    width: 85%;
+    min-width: 350px;
+    
+}
+
+.influencers{
+    padding: 30px 0;
+    padding-bottom: 90px;
+    background: #efefef;
+}
+
+.influencers h1{
+    margin: 60px  0;
+    color: #555;
+}
+
+.person-info{
+    background: white;
+    padding: 10px 0 1px;
+    margin-bottom: 10px;
+}
+
+.profile{
+    padding: 60px 0;
+    background-image: linear-gradient(#c847f1,#380231);
+   
+}
+
+.profile-card{
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 20px 40px rgba(17, 39, 125, 0.18);
+}
+
+.profile-info {
+    padding: 40px;
+
+}
+.profile-info h2{
+    color: #c200ff;
+    margin-bottom: 35px;
+
+}
+
+.followers span{
+    display: inline-block;
+    color: #c200ff;
+    margin: 35px 20px 35px;
+}
+
+.profile-info h5,p{
+    color: #555;
+}
+ .btn-follow{
+     background: #c200ff;
+     border: none;
+     color: white;
+     width: 130px;
+     height: 40px;
+     margin-top: 54px;
+     margin-bottom: 14px;
+     border-radius: 50px;
+ }
+
+ .profile-img{
+     width: 85%;
+     /* height: 20px; */
+      min-width: 50px; 
+
+ }
+
+ .footer{
+     padding: 50px 0 20px;
+     background-image: linear-gradient(#c847f1,#380231);
+     margin-top: 450px;
+ }
+
+ .store-icon img{
+     width: 150px;
+     margin: 0 10px 50px;
+ }
+
+ .footer-menu a{
+     display: inline-block;
+     width: 120px;
+     color: white !important;
+     text-decoration: none !important;
+     margin-bottom: 20px;
+ }
+
+ .footer p{
+     color: white;
+     font-size: 14px;
+ }
